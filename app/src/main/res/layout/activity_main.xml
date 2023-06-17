@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_womenemp"
+    tools:context="com.example.wsafety.MainActivity">
+
+    <View
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:onClick="PopupMenu"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/ic_baseline_more_vert_24"/>
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:background="#3EDD8220"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:text="@string/sos_will_be_sent_to_text"
+            android:fontFamily="@font/varela_round"
+            android:gravity="center"
+            android:id="@+id/textNum"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            app:cornerRadius="10dp"
+            android:onClick="startServiceV"
+            app:layout_constraintStart_toStartOf="parent"
+            android:backgroundTint="@color/btnDef"
+            android:id="@+id/start"
+            android:textColor="@color/black"
+            android:text="@string/btn_start_txt"
+            android:fontFamily="@font/varela_round"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/stop"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp"
+            android:backgroundTint="@color/white"
+            app:strokeColor="@color/btnDef"
+            app:strokeWidth="2dp"
+            android:onClick="stopService"
+            android:text="@string/btn_stop_txt"
+            android:fontFamily="@font/varela_round"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WomenSafety</string>
+    <string name="btn_stop_txt">stop</string>
+    <string name="btn_start_txt">Start</string>
+    <string name="sos_will_be_sent_to_text">SOS Will Be Sent To\n </string>
+    <string name="enter_number_to_nsend_sms_nin_nemergency_txt">Enter Number To\nSend SMS\nin\nEMERGENCY!</string>
+    <string name="number_txt">Number</string>
+    <string name="finish_btn_txt">Finish</string>
+    <string name="change_number_txt">Change Number</string>
+    <string name="feel_safe_everywhere_txt">Feel Safe Everywhere</string>
+</resources>
