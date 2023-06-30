@@ -59,7 +59,7 @@ public class ServiceMine extends Service {
                             // Logic to handle location object
                             location.getAltitude();
                             location.getLongitude();
-                            myLocation = "http://maps.google.com/maps?q=loc:"+location.getLatitude()+","+location.getLongitude();
+                            myLocation = "https://www.google.com/maps/place/"+location.getLatitude()+","+location.getLongitude();
                         }else {
                             myLocation = "Unable to Find Location :(";
                         }
